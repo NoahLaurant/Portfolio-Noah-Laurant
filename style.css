@@ -23,12 +23,20 @@
     text-align: center;/*centrer le texte*/
 }
 
+.taille-i{
+    font-size: 50px;
+}
+
 .uppercase{
     text-transform: uppercase;/*mettre en majuscule*/
 }
 
 .blanc{
     color: white;
+}
+
+.noir{
+    color: black;
 }
 
 .rouge{
@@ -40,16 +48,28 @@
 LARGEURS
 ---------------------------------*/
 
+
 .w-100{
     width: 100%;
+}
+.w-60{
+    width: 60%;
 }
 
 .w-50{
     width: 50%;
 }
 
-.w-48{
-    width: 48%;
+.w-45{
+    width: 45%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-35{
+    width: 35%;
 }
 
 .w-30{
@@ -59,9 +79,17 @@ LARGEURS
 .w-25{
     width: 25%;
 }
-
 .w-20{
     width: 20%;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.wb{
+    width: 200px;
+    height: 80px;
 }
 
 /*----------------------------
@@ -83,6 +111,14 @@ FLEX BOX
 
 .justify-center{
     justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 .gap-8{
@@ -130,6 +166,14 @@ MARGING & PADDING
     padding-bottom: 16px;
 }
 
+.pt-32{
+    padding-top: 32px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+
 .pt-128{
     padding-top: 128px;
 }
@@ -153,20 +197,79 @@ FOND
     background-color: red;
 }
 
-.bg-bleu{
+.bg-portfolio{
+    background-color: #23253B;
+    color: white;
+}
+
+.bg-footer{
     background-color: #3E4267;
 }
 
-.bg-portfolio{
-    color: #23253B;
+.bg-blanc{
+    background-color: white;
 }
 
 
 /*----------------------
-AUTRE
+POSITION
 -----------------------*/
 
 header{
     position: fixed;
     
+}
+
+
+/*-------------------------
+BOUTON
+---------------------------*/
+
+.btn{
+    padding: 3px 6px;
+    margin-top: 20px;
+    border: 1px;
+    background-color: red;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+
+.bouton:hover{
+   transform: scale(1.1);
+   background-color: black;
+   color: white;
+}
+
+
+/*----------------------------
+BORDURE
+-----------------------------*/
+
+
+.card{
+    border: 2px solid;
+    border-color: red;
+    border-radius: 15px;
+}
+
+
+.temoin{
+     background: red; 
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.border{
+    border-radius: 15px;
+}
+
+.border-rouge{
+    border: 2px solid;
+    border-color: red;
+    border-radius: 15px;
 }

@@ -9,80 +9,116 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
     />
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
 
-    <header>
+    <header class="flex space-between bg-portfolio w-100 mb-32">
        <img src="asset/Vector (7).png" alt="">
 
-       <nav>
-        <a href="">accueil</a>
-        <a href="">Mes projets</a>
-        <a href="">A propos de moi</a>
-        <a href="">contact</a>
+       <nav class="flex w-50">
+        <a href="" class="w-20">accueil</a>
+        <a href="" class="w-20">Mes projets</a>
+        <a href="" class="w-20">A propos de moi</a>
+        <a href="" class="w-20">contact</a>
        </nav>
     </header>
 
-    <main>
+    <main class="bg-portfolio">
 
         <!-- premiére section -->
-        <section class="flex">
+        <section  class="pt-32">
 
             <!-- div 1 -->
-            <div class="flex">
+            <div class="flex align-center">
 
                 <div class="w-50">
                     <p>Bonjour !</p>
                     <h1>Moi c’est Noah, et je cherche un stage en développement front end</h1>
+                    <a href="" class="btn">Me Contacter</a>
                 </div>
 
-            </div>
+           
 
             <!-- div 2 -->
-            <div class="w-50">
+            <div class="w-50 pt-16">
                 <img src="asset/Group.png" alt="">
             </div>
-
+ </div>
         </section>
 
         <!-- deuxiéme section -->
-        <section>
+        <section  class="mb-32 container-1000">
 
-            <h2>Mes projets</h2>
+            <h2 class="text-center mt-32 mb-32">Mes projets</h2>
 
-            <div class="flex">
+            <div>
 
                 <!-- div 1 -->
-                <div class="w-50">
-                    <img src="" alt="">
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
+                <div class="flex align-center bg-blanc mt-32 mb-32 p-10 card">
+
+                        <div class="w-50">
+                    <img src="asset/image-interno.png" alt="" class="w-60 border">
+                         </div>
+
+                         <div class="w-50">
+                    <h4 class="noir">interno</h4>
+                    <p class="noir">faire avec le langage HTML et CSS un site vitrine d'une entreprise de meuble.</p>
+                    <a href="https://noahlaurant.github.io/Interno-Noah/" target="_blank" class="btn">voir site</a>
+                </div>
+
                 </div>
 
                 <!-- div 2 -->
-                <div class="w-50">
-                    <img src="" alt="">
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
+                <div class="flex align-center bg-blanc mt-32 mb-32 p-10 card">
+
+                    <div class="w-50">
+                    <img src="asset/image-monteur-designer.png" alt="" class="w-60 border">
+                    </div>
+
+                    <div class="w-50">
+                    <h4 class="noir">Monteur designer</h4>
+                    <p class="noir">faire avec le langage HTML et CSS une page de presentation d'un monteur designer</p>
+                    <a href="https://la-toile-emlyon.github.io/ste-assignment-html-css-s2-2026-NoahLaurant/" target="_blank" class="btn">voir site</a>
+                
+                </div>
+
                 </div>
 
                 <!-- div 3 -->
-                <div class="w-50">
-                    <img src="" alt="">
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
+                <div class="flex align-center bg-blanc mt-32 mb-32 p-10 card">
+
+                    <div class="w-50">
+                    <img src="asset/image-escape-game.png" alt="" class="w-60 border">
+                    </div>
+
+                    <div class="w-50">
+                    <h4 class="noir">Esape Game</h4>
+                    <p class="noir">faire avec le langage HTML , CSS et Javascript une d'accueil d'un escape game</p>
+                    <a href="https://noahlaurant.github.io/Dehors--EscapeGameParis-LAURANT-NOAH/" target="_blank" class="btn">voir site</a>
+                
+                </div>
+
                 </div>
 
                 <!-- div 4 -->
-                <div class="w-50">
-                    <img src="" alt="">
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
+                <div class="flex align-center bg-blanc mt-32 mb-32 p-10 card">
+
+                    <div class="w-50">
+                    <img src="asset/image-appli-figma.png" alt="" class="w-20 border">
+                    </div>
+
+                    
+                    <div class="w-50">
+                    <h4 class="noir">Appli de marche en montagne UX/UI</h4>
+                    <p class="noir">faire une appli de marche en montagne sur figma</p>
+                    <a href="https://www.figma.com/design/x7tMWzCK3VBIJ7t3meVwyt/UI-UX-antonin-nah-ayoub?node-id=1-2&t=okADKbW6rBthWaxW-1" target="_blank" class="btn">voir site</a>
+                
+                </div>
+                
+                </div>
+
                 </div>
 
             </div>
@@ -90,33 +126,38 @@
         </section>
 
         <!-- troisiéme section -->
-        <section class="bg-rouge">
-            <h2>Mes qualités</h2>
+        <section id="carte" class="mt-32 mb-32">
+            <h2 class="text-center mt-32 mb-32">Mes qualités</h2>
 
-            <div class="flex">
+            <div class="bg-rouge">
+
+                <div class=" container-1000 flex space-around">
 
                 <!-- div 1 -->
-                <div class="w-25">
-                   <i class="ph ph-person-arms-spread"></i>
+                <div class="pt-32 flex flex-column w-20 pt-16 pb-16">
+                   <i class="ph ph-person-arms-spread pb-10 txt-center blanc taille-i"></i>
                     <p>Dynamique</p>
                 </div>
 
                 <!-- div 2 -->
-                <div class="w-25">
-                    <i class="ph ph-heart"></i>
+                <div class="pt-32 flex flex-column w-20 pt-16 pb-16">
+                    <i class="ph ph-heart pb-10 txt-center blanc taille-i"></i>
                     <p>Passionné</p>
                 </div>
 
                 <!-- div 3 -->
-                <div class="w-25">
-                     <i class="ph ph-rocket-launch"></i>
+                <div class="pt-32 flex flex-column w-20 pt-16 pb-16">
+                     <i class="ph ph-rocket-launch pb-10 txt-center blanc taille-i"></i>
                     <p>Motivé</p>
                 </div>
 
                 <!-- div4 -->
-                <div class="w-25">
-                    <i class="ph ph-handshake"></i>
+                <div class="pt-32 flex flex-column w-20 pt-16 pb-16">
+                    <i class="ph ph-handshake pb-10 txt-center blanc taille-i"></i>
                     <p>A l'écoute</p>
+                </div>
+            
+            
                 </div>
 
             </div>
@@ -124,37 +165,37 @@
         </section>
 
         <!-- quatriéme section -->
-        <section>
-            <h2>Mon parcours</h2>
+        <section class="container-1000 pb-32">
+            <h2 class="text-center mb-16">Mon parcours</h2>
 
-            <div class="flex">
+            <div class="flex space-between">
 
                 <!-- div 1 -->
-                <div class="w-50">
-                    <p></p>
-                    <h3></h3>
-                    <p></p>
+                <div class="w-20">
+                    <p class="rouge">2020</p>
+                    <h3>BAC</h3>
+                    <p>j'ai eu mon BAC STI2D</p>
                 </div>
 
                 <!-- div 2 -->
-                <div class="w-50">
-                    <p></p>
-                    <h3></h3>
-                    <p></p>
+                <div class="w-20">
+                    <p class="rouge">2021</p>
+                    <h3>Stage chez l'entreprise QWEEBY</h3>
+                    <p>ce stage de 6 semaines chez Qweeby qui est une entrprise de facture électronique me permet de découvrir de nouveau langage informatique de découvrir le monde du tavail.</p>
                 </div>
 
                 <!-- div 3 -->
-                <div class="w-50">
-                    <p></p>
-                    <h3></h3>
-                    <p></p>
+                <div class="w-20">
+                    <p class="rouge">2025</p>
+                    <h3>stage chez l'entreprise Technetics</h3>
+                    <p>ce stage de 2 semaine chez le service informatique de technetics qui est une entreprise chez fabrique des piéce d'avion , de centrale nucléaire me permet de découvrir comment fonctionne leur service et comment il font fonctionner leur machine , mon boulot était d'installer des ordinateurs protables.</p>
                 </div>
 
                 <!-- div 4 -->
-                <div class="w-50">
-                    <p></p>
-                    <h3></h3>
-                    <p></p>
+                <div class="w-20">
+                    <p class="rouge">2026</p>
+                    <h3>Formation La Toile</h3>
+                    <p>Cette formation s'apelle La Toile qui permet d'apprendre le stage HTML , CSS et Javascript , appris le UX/UI design , a s'entrainer pour mes entretien , et m'aider pour mon CV.</p>
                 </div>
 
             </div>
@@ -163,23 +204,33 @@
 
     </main>
 
-    <footer class="flex">
+    <footer class="flex align-center bg-footer">
         
-        <div>
-            <p></p>
-            <a href=""></a>
-        </div>
+        <div class="flex w-50">
 
-        <div>
+            <div class="w-20">
+            <img src="asset/Vector (7).png" alt="">
+            </div>
 
-            <a href=""></a>
-
-            <a href=""></a>
-
-            <a href=""></a>
+            <div class="w-20">
+            <p class="blanc">Noah</p>
+            <a href="">noah.laurant3@orange.fr</a>
+            </div>
 
         </div>
 
+        <div class="w-50">
+
+            <a href=""><i class="ph ph-facebook-logo"></i></a>
+
+            <a href=""><i class="ph ph-instagram-logo"></i></a>
+
+            <a href=""><i class="ph ph-linkedin-logo"></i></a>
+
+        </div>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30798.218435290117!2d4.292926907993406!3d45.53935416408577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f452985af06859%3A0x4093cafcbe80c20!2s42330%20Saint-Bonnet-les-Oules!5e1!3m2!1sfr!2sfr!4v1779876915738!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
     
 </body>
