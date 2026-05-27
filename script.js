@@ -20,7 +20,7 @@ function genererCartesProjet(tableauProjets){
     tableauProjets.forEach(projet => {
 
         // Ajoute une carte projet dans le conteneur HTML sur l'index
-        document.querySelector("#container-projet-cards").innerHTML += 
+        document.querySelector("#").innerHTML += 
         `
         <!-- lien vers la page détail du projet -->
         <!-- on passe l'id dans l'URL -->
