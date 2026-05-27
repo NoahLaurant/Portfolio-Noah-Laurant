@@ -1,21 +1,30 @@
 [
   {
     "id": "1",
-    "titre": "Projet 1",
-    "desc": "lorem ipsum dolor loris",
-    "date": "2022"
+    "titre": "Interno",
+    "desc": "faire avec le langage HTML et CSS un site vitrine d'une entreprise de meuble.",
+    "date": "2026",
+    "img":"asset/image-interno.png"
   },
   {
     "id": "2",
-    "titre": "Projet 2",
-    "desc": "lorem ipsum dolor loris",
-    "date": "2021"
-    
+    "titre": "motion designer",
+    "desc": "faire avec le langage HTML et CSS une page de presentation d'un monteur designer",
+    "date": "2026",
+    "img":"asset/image-monteur-designer.png"
   },
   {
     "id": "3",
-    "titre": "Projet 3",
-    "desc": "lorem ipsum dolor loris",
-    "date": "2020"
-  }
+    "titre": "escape game",
+    "desc": "faire avec le langage HTML , CSS et Javascript une d'accueil d'un escape game",
+    "date": "2026",
+    "img":"asset/image-escape-game.png"
+  },
+{
+  "id":"4",
+  "titre":"appli marche",
+  "desc":"faire une appli de marche en montagne sur figma",
+  "date":"2026",
+  "img":"asset/image-appli-figma.png"
+}
 ]

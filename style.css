@@ -138,6 +138,10 @@ FLEX BOX
 MARGING & PADDING
 -------------------------------*/
 
+.ml-16{
+    margin-left: 16px;
+}
+
 .mt-16{
     margin-top: 16px;
 }
@@ -197,10 +201,6 @@ FOND
     background-color: red;
 }
 
-.bg-portfolio{
-    background-color: #23253B;
-    color: white;
-}
 
 .bg-footer{
     background-color: #3E4267;
@@ -210,6 +210,10 @@ FOND
     background-color: white;
 }
 
+main{
+     background-color: #23253B;
+    color: white;
+}
 
 /*----------------------
 POSITION

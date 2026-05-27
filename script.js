@@ -1,3 +1,5 @@
+/*
+
 // Charge le fichier data.json
 fetch("data.json")
 
@@ -20,22 +22,18 @@ function genererCartesProjet(tableauProjets){
     tableauProjets.forEach(projet => {
 
         // Ajoute une carte projet dans le conteneur HTML sur l'index
-        document.querySelector("#").innerHTML += 
+        document.querySelector("#projet-card").innerHTML += 
         `
         <!-- lien vers la page détail du projet -->
         <!-- on passe l'id dans l'URL -->
-        <a href="pageProjet.html?id=${projet.id}" class="w30 flex column">
-
-            <!-- titre du projet -->
-            <h2>${projet.titre}</h2>
-
-            <!-- description -->
-            <p>${projet.desc}</p>
-
-            <!-- date -->
-            <p>${projet.date}</p>
-
-        </a>
+         <div class="flex align-center bg-blanc mt-32 mb-32 p-10 card">
+         <div class="w-50">
+                    <img src="${projet.img}" alt="" class="w-40 border">
+                         </div>
+       <div class="w-50">
+                    <h4 class="noir">${projet.titre}</h4>
+                    <p class="noir">${projet.desc}</p>
+                      <a href="Pageprojet.html?id=${projet.id}" target="_blank" class="btn">voir plus</a>
         `
         
     });
@@ -47,7 +45,7 @@ function genererCartesProjet(tableauProjets){
 
 
 
-
+*/
 
 
 //on appelle la variable entête pour definir le header
